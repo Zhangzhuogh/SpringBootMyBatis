@@ -87,17 +87,16 @@
   > 1.6 创建用户类Bean
       User.java 
       
+        (```)
+          public class User {
+                
+                    private String id;
+                
+                    private String name;
+                
+                    private String age;
+                
+                    private String sex;
+                }
       (```)
       
-      public class User {
-      
-          private String id;
-      
-          private String name;
-      
-          private String age;
-      
-          private String sex;
-      }
-      
-      (```)
