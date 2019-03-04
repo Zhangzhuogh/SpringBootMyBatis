@@ -84,4 +84,18 @@
       spring.datasource.username=root
       spring.datasource.password=root
       spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-  
+  > 1.6 创建用户类Bean
+      User.java 
+      
+      (```)
+      public class User {
+      
+          private String id;
+      
+          private String name;
+      
+          private String age;
+      
+          private String sex;
+      }
+      (```)
